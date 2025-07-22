@@ -1,0 +1,169 @@
+/* ========== Mobile First ========== */
+
+.navbar {
+  background-color: var(--background-color);
+  padding: 16px 24px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+/* Logo */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+}
+
+.logo-icon img {
+  width: 28px;
+  height: 28px;
+}
+
+.logo-text {
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--text-color);
+}
+
+/* Burger Menu Button */
+.menu-toggle {
+  width: 40px;
+  height: 40px;
+  background-color: #2a2a2a;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  padding: 6px;
+}
+
+.menu-toggle {
+  width: 40px;
+  height: 40px;
+  background-color: #2a2a2a;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end; 
+  gap: 5px;
+  cursor: pointer;
+  padding: 6px;
+}
+
+.menu-toggle span {
+  height: 2px;
+  background-color: #cbf43f;
+  display: block;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+.menu-toggle span:nth-child(1),
+.menu-toggle span:nth-child(2) {
+  width: 20px;
+}
+
+.menu-toggle span:nth-child(3) {
+  width: 14px;
+  align-self: flex-end;
+}
+
+
+/* Nav Links */
+.buttons-container {
+  display: none;
+  flex-direction: column;
+  gap: 16px;
+  background-color: #1a1a1a;
+  padding: 20px;
+  position: absolute;
+  top: 64px;
+  left: 16px;
+  right: 16px;
+  z-index: 999;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: all 0.3s ease;
+}
+
+.buttons-container li a {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--text-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.buttons-container li a:hover {
+  color: var(--primary-color);
+}
+
+/*  Active Page Highlight */
+.buttons-container li a.active {
+  border: 1px solid var(--active-page-border-color);
+  border-radius: 6px;
+  padding: 6px 12px;
+  background-color: rgba(91, 121, 122, 0.1);
+}
+
+/* Show menu when toggled */
+.buttons-container.show {
+  display: flex;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* CTA hidden on mobile */
+.cta-button {
+  display: none;
+}
+
+/* ========== Tablet and Up ========== */
+@media (min-width: 768px) {
+  .menu-toggle {
+    display: none;
+  }
+
+  .buttons-container {
+    display: flex !important;
+    position: static;
+    flex-direction: row;
+    gap: 24px;
+    background: none;
+    padding: 0;
+    opacity: 1;
+    transform: none;
+    box-shadow: none;
+  }
+
+  .cta-button {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color var(--transition-speed);
+  }
+
+  .cta-button:hover {
+    background-color: #00cbd1;
+  }
+}
