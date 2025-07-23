@@ -1,8 +1,6 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 
-
-// استيراد الصفحات
 import Careers from "./pages/Careers";
 // import Home from "./pages/Home";
 // import Services from "./pages/Services";
@@ -11,17 +9,14 @@ import Careers from "./pages/Careers";
  import About from "./pages/About";
 // import Contact from "./pages/Contact";
 
-// استيراد Navbar
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
 
 function App() {
   return (
-    <> 
-      
+    <>
       <Navbar /> {/* ✅ ثابت في كل الصفحات */}
-       
       <Routes>
         {/* <Route path="/" element={<Home />} />
         <Route path="/services" element={<Services />} />
