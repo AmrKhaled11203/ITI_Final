@@ -1,33 +1,34 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-
+import Footer from "./components/Footer";
 import Careers from "./pages/Careers";
-// import Home from "./pages/Home";
-// import Services from "./pages/Services";
+
+import Home from "./pages/Home";
+import Services from "./pages/Services";
 import Works from "./pages/Works";
 // import Process from "./pages/Process";
- import About from "./pages/About";
+import About from "./pages/About";
 // import Contact from "./pages/Contact";
 
 import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
-
+// import Works from "./pages/Works";
 
 function App() {
   return (
     <>
-      <Navbar /> {/* Fixed in all pages  */}
+
+      <Navbar />
+      {/* ✅ ثابت في كل الصفحات */}
       <Routes>
-        {/* <Route path="/" element={<Home />} /> */}
-        {/* <Route path="/services" element={<Services />} /> */}
-        <Route path="/Works" element={<Works />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/works" element={<Works />} />
         {/* <Route path="/process" element={<Process />} /> */}
-        
-        <Route path="/about" element={<About />} /> 
-        <Route path="/careers" element={<Careers />} /> {/* ✅ صفحة Careers */}
+        <Route path="/about" element={<About />} />
+        <Route path="/careers" element={<Careers />} />
         {/* <Route path="/contact" element={<Contact />} /> */}
       </Routes>
-      <Footer/>
+      <Footer />
     </>
   );
 }
