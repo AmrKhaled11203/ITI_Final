@@ -8,7 +8,7 @@ const projects = [
   {
     mainHeading: 'E-Commerce Platform for Fashion Hub',
     image: require('../../assets/images/work_images/Chic Boutique.png'),
-    linkText: 'Chic Boutique Project',
+    linkText: 'https://www.chicboutique.com',
     linkHref: 'https://chictheboutique.com',
     title: 'Chic Boutique',
     arrowImg: arrowIcon,
@@ -18,7 +18,7 @@ const projects = [
   {
     mainHeading: 'Mobile App for Food Delivery Service',
     image: require('../../assets/images/work_images/HungryBites.png'),
-    linkText: 'HungryBites Project',
+    linkText: 'https://www.hungrybites.com',
     linkHref: 'https://www.hungrybites.com',
     title: 'HungryBites',
     arrowImg: arrowIcon,
@@ -27,7 +27,7 @@ const projects = [
   {
     mainHeading: 'Booking and Reservation System for Management',
     image: require('../../assets/images/work_images/EventMasters.png'),
-    linkText: 'EventMasters Project',
+    linkText: 'https://www.eventmasters.com',
     linkHref: 'https://www.eventmasters.com',
     title: 'EventMasters',
     arrowImg: arrowIcon,
@@ -36,7 +36,7 @@ const projects = [
   {
     mainHeading: 'Custom Software for Workflow Automation',
     image: require('../../assets/images/work_images/ProTech Solutions.png'),
-    linkText: 'ProTech Solutions Project',
+    linkText: 'https://www.protechsolutions.com',
     linkHref: 'https://www.protechsolutions.com',
     title: 'ProTech Solutions',
     arrowImg: arrowIcon,
@@ -45,7 +45,7 @@ const projects = [
   {
     mainHeading: 'Web Portal for Real Estate Listings',
     image: require('../../assets/images/work_images/Dream Homes Realty.png'),
-    linkText: 'Dream Homes Realty Project',
+    linkText: 'https://www.dreamhomesrealty.com',
     linkHref: 'https://dreamhome-realty.com',
     title: 'Dream Homes Realty',
     arrowImg: arrowIcon,
@@ -54,7 +54,7 @@ const projects = [
   {
     mainHeading: 'Mobile App for Fitness Tracking',
     image: require('../../assets/images/work_images/FitLife Tracker.png'),
-    linkText: 'FitLife Tracker Project',
+    linkText: 'https://fitlifesa.com/',
     linkHref: 'https://fitlifesa.com/',
     title: 'FitLife Tracker',
     arrowImg: arrowIcon,
@@ -63,7 +63,7 @@ const projects = [
   {
     mainHeading: 'Custom Software for Supply Chain Management',
     image: require('../../assets/images/work_images/Global Logistics Solutions.png'),
-    linkText: 'Global Logistics Solutions Project',
+    linkText: 'https://www.globallogisticssolutions.com',
     linkHref: 'https://gogloballogistics.com',
     title: 'Global Logistics Solutions',
     arrowImg: arrowIcon,
@@ -72,7 +72,7 @@ const projects = [
   {
     mainHeading: 'Educational Platform for Online Learning',
     image: require('../../assets/images/work_images/EduConnect.png'),
-    linkText: 'EduConnect Project',
+    linkText: 'https://www.educonnect.com',
     linkHref: 'https://www.educonnect.com.au',
     title: 'EduConnect',
     arrowImg: arrowIcon,
@@ -81,16 +81,16 @@ const projects = [
   {
     mainHeading: 'Mobile App for Travel Planning',
     image: require('../../assets/images/work_images/WanderWise.png'),
-    linkText: 'WanderWise Project',
+    linkText: 'https:/www.wanderwise.com',
     linkHref: 'https://www.wanderwiseai.com',
     title: 'WanderWise',
     arrowImg: arrowIcon,
     description: 'WanderWise wanted a mobile app that simplified travel planning and discovery. We developed an app with features like personalized itineraries, destination guides, and integrated booking options, making it easier for travelers to explore new destinations.satisfaction. ',
   },
   {
-    mainHeading: 'Custom Software for E-commerce Platform',
+    mainHeading: 'Web Application for Customer',
     image: require('../../assets/images/work_images/ConnectCRM.png'),
-    linkText: 'ConnectCRM Project',
+    linkText: 'https://www.hungrybites.com',
     linkHref: 'https://www.thehungrybites.com',
     title: 'ConnectCRM',
     arrowImg: arrowIcon,

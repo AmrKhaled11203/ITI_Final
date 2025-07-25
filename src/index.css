@@ -21,11 +21,10 @@
   /*  Backgrounds */
   --background-color-main: #1A1A1A;
   --background-color-section: #262626;
+  --background-color: #191919;
 
   /*  Font */
   --font-family: 'Barlow', sans-serif;
-  --background-color: #191919;
-  --font-family: "Barlow", sans-serif;
   --transition-speed: 0.3s;
 }
 

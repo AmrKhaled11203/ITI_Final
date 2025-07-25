@@ -35,13 +35,15 @@
 }
 
 .hero-title {
-  font-size: 25px;
+  margin: 0px;
+  font-weight: bold;
+  font-size: 48px;
   color: var(--text-color);
 }
 
 .hero-text {
-  font-weight: 400;
-  font-size: 15px;
+  font-weight: 400px;
+  font-size: 18px;
   line-height: 24px;
   opacity: 0.8;
   color: var(--text-color-main);
@@ -109,7 +111,6 @@
   max-width: 100%;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  padding: 0px;
   box-sizing: border-box;
   transition: transform 0.3s ease;
 
@@ -130,17 +131,18 @@
 .card {
   background-color: var(--background-color-main);
   border-radius: 12px;
-  /* border: var(--border-color) 1px solid; */
+  border: 0px solid var(--border-color);
   padding: 24px;
   flex: 1 1 100%;
   max-width: 100%;
   display: flex;
   flex-direction: column;
   gap: 20px;
+  transition: none;
 }
 
 .whole-card-container:hover {
-  transform: scale(1.02);
+  transform: scale(1.005);
   box-shadow: 0 0 10px rgba(0, 255, 0, 0.15);
 }
 
