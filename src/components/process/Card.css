@@ -1,0 +1,128 @@
+.process-allcard {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* position: relative; */
+margin-top: 20px;
+}
+
+
+.process-card {
+  background-color: #191919;
+  border: 1px solid #363636;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  height: 50%;
+ 
+}
+
+.process-card h2 {
+  color: #D8FF99;
+  font-size: 150px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  bottom: 20px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.process-card-title {
+  position: relative;
+  font-size: 30px;
+  font-weight: 500;
+  color: #98989A;
+  top: 30px;
+  padding-bottom: 10px;
+}
+
+.process-card-title hr {
+  border: none;
+  border-bottom: 2px solid #363636;
+  width: 350px;
+}
+
+.process-card p {
+  font-size: 15px;
+  color: #98989A;
+  margin: 0;
+}
+/* أجهزة التابلت من 769px إلى 1024px */
+@media (max-width: 1024px) {
+  .process-allcard {
+    grid-template-columns: 1fr 1fr;
+    width: 90vw;
+    max-width: 100%;
+    padding: 15px 20px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+
+  .process-card {
+    padding: 20px;
+    height: auto;
+  }
+
+  .process-card h2 {
+    font-size: 90px;
+    bottom: 10px;
+  }
+
+  .process-card-title {
+    font-size: 24px;
+    top: 15px;
+  }
+
+  .process-card-title hr {
+    width: 70%;
+    max-width: 250px;
+  }
+
+  .process-card p {
+    font-size: 15px;
+  }
+}
+
+/* أجهزة الموبايل: 768px وأقل */
+@media (max-width: 768px) {
+  .process-allcard {
+    grid-template-columns: 1fr;
+    width: 95vw;
+    max-width: 100%;
+    padding: 10px 15px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+
+  .process-card {
+    padding: 15px;
+    height: auto;
+    width: 100%;
+    margin: 0 auto; /* لتوسيط المحتوى بدل right */
+    position: relative;
+    right: 0; /* نشيل التزحزح اللي كان بيحركها يمين */
+  }
+
+  .process-card h2 {
+    font-size: 70px;
+    bottom: 5px;
+  }
+
+  .process-card-title {
+    font-size: 20px;
+    top: 10px;
+  }
+
+  .process-card-title hr {
+    width: 90%;
+    max-width: 200px;
+  }
+
+  .process-card p {
+    font-size: 14px;
+  }
+}
+
+
+
