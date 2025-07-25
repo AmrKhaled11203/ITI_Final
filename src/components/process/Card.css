@@ -48,7 +48,6 @@ margin-top: 20px;
   color: #98989A;
   margin: 0;
 }
-/* أجهزة التابلت من 769px إلى 1024px */
 @media (max-width: 1024px) {
   .process-allcard {
     grid-template-columns: 1fr 1fr;
@@ -84,7 +83,6 @@ margin-top: 20px;
   }
 }
 
-/* أجهزة الموبايل: 768px وأقل */
 @media (max-width: 768px) {
   .process-allcard {
     grid-template-columns: 1fr;
@@ -99,9 +97,9 @@ margin-top: 20px;
     padding: 15px;
     height: auto;
     width: 100%;
-    margin: 0 auto; /* لتوسيط المحتوى بدل right */
+    margin: 0 auto;
     position: relative;
-    right: 0; /* نشيل التزحزح اللي كان بيحركها يمين */
+    right: 0; 
   }
 
   .process-card h2 {
