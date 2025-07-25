@@ -96,18 +96,7 @@
   margin-top: -25px;
   position: relative;
 }
-/* 
-.thumb::-moz-range-thumb {
-  pointer-events: all;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background-color: #9EFF00;
-  border: none;
-  cursor: pointer;
-  margin-top:px; 
-  position: relative;
-} */
+
 .slider {
   position: relative;
   height: 5px;
