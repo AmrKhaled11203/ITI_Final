@@ -1,0 +1,64 @@
+ 
+.process-sec {
+    width: 100%;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/public/images/12.png);
+    text-align: center;
+    padding: 20px;
+    margin-top: -50px;
+}
+
+
+.process-sec h1 {
+    font-size: 48px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    padding-top: 50px;
+    color: #ffffff;
+    
+
+}
+
+.process-sec p {
+    font-weight: 400;
+    font-size: 20px;
+    color: #E6E6E6;
+    position: relative;
+    bottom: 50px;
+
+}
+
+
+.process-sec2 {
+
+    padding-top: 100px;
+    margin: 0 auto;
+}
+
+.process-sec2 h4 {
+    font-size: 48px;
+    margin-bottom: 15px;
+    color: #ffffff;
+    font-weight: 600;
+
+}
+
+.process-sec2 p {
+    font-size: 18px;
+    color: #E6E6E6;
+    font-weight: 400;
+
+}
+
+.process-prs {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 8px;
+    font-size: 22px;
+    margin-top: 50px;
+} 

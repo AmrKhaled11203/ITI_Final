@@ -1,0 +1,19 @@
+ 
+
+input[type="range"] {
+    appearance: none;
+    
+    outline: none;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    background-color: transparent;
+    pointer-events: none;
+}
+
+
+input[type="range"]::-webkit-slider-runnable-track {
+    height: 5px;
+}
+
