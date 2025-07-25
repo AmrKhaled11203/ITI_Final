@@ -3,18 +3,24 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Footer from "./components/Footer";
 import Careers from "./pages/Careers";
+
 import Home from "./pages/Home";
 import Services from "./pages/Services";
+
 // import Works from "./pages/Works";
 import Process from "./pages/Process";
+import Works from "./pages/Works";
+// import Process from "./pages/Process";
 import About from "./pages/About";
 // import Contact from "./pages/Contact";
 
 import Navbar from "./components/Navbar";
+// import Works from "./pages/Works";
 
 function App() {
   return (
     <>
+
       <Navbar />
       {/* ✅ ثابت في كل الصفحات */}
       <Routes>
@@ -22,6 +28,8 @@ function App() {
         <Route path="/services" element={<Services />} />
         {/* <Route path="/works" element={<Works />} />*/}
         <Route path="/process" element={<Process />} />
+        <Route path="/works" element={<Works />} />
+        {/* <Route path="/process" element={<Process />} /> */}
         <Route path="/about" element={<About />} />
         <Route path="/careers" element={<Careers />} />
         {/* <Route path="/contact" element={<Contact />} /> */}
