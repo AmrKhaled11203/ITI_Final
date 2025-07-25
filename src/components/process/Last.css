@@ -73,7 +73,7 @@ textarea {
   }
 }
 
-/* Mobile (أجهزة 768px وأقل) */
+
 @media (max-width: 768px) {
   .process-cntr {
     width: 95%;
@@ -94,7 +94,6 @@ textarea {
   }
 }
 
-/* Small Mobile (480px وأقل) */
 @media (max-width: 480px) {
   .Submitbt {
     height: 45px;
