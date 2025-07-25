@@ -127,7 +127,7 @@
   }
 
   .TestimonialsSection-content {
-    grid-template-columns: 1fr; /* one column instead of two */
+    grid-template-columns: 1fr; 
   }
 
   .testimonial-card {

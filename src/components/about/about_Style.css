@@ -1,5 +1,4 @@
 .hero {
-  /* background: url('../assets/images/14.jpg') no-repeat center center; */
   background-size: cover;
   text-align: center;
   padding: 100px 20px 60px;
@@ -98,7 +97,6 @@ footer {
   font-family: Arial, sans-serif;
   text-align: center;
   border-top: 1px solid #333;
-  margin: 0 auto;
 }
 
 .footer-container {
@@ -216,113 +214,6 @@ footer .footer-bottom span {
   border-top: 1px solid rgba(61, 61, 61, 1);
   margin: 0 auto;
 }
-/* @media (max-width: 600px) {
-  .hero {
-    padding: 60px 10px 40px;
-  }
-
-  .hero h1 {
-    font-size: 28px;
-  }
-
-  .about-section {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .about-text, .about-image {
-    width: 100%;  
-  }
-
-  .story {
-    grid-template-columns: 1fr; 
-  }
-
-  .story-section {
-    padding: 20px 10px;
-    text-align: center;
-  }
-
-  .story-tt {
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .section-number {
-    font-size: 3rem;
-  }
-
-  .ww {
-    font-size: 18px;
-    bottom: 6px;
-  }
-
-  .last_section_Top {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .last_section_Top_Left,
-  .last_section_Top_Right {
-    width: 100%;
-  }
-
-  .last_Section_Bottom {
-    flex-direction: column;
-    gap: 20px;
-  }
-
-  .last_Section_Bottom_Left {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .last_Section_Bottom_Left_Text,
-  .last_Section_Bottom_Left_Input {
-    width: 100%;
-  }
-
-  .footer-container,
-  .footer-contact-info {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .footer-contact-info li {
-    margin-right: 0;
-    margin-bottom: 10px;
-  }
-
-  .footer-end {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 10px;
-  }
-
-  .footer-middle {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .footer-middle li {
-    margin: 10px;
-  }
-  .footer-container{
-    font-size: 10px;
-    
-  }
-  .footer-contact-info {
-    font-size: 8px;
-  
-  
-  }
-} */
-/* Tablet (max-width: 992px) */
 @media (max-width: 992px) {
   .hero {
     padding: 80px 20px 50px;
@@ -490,7 +381,6 @@ footer .footer-bottom span {
   }
 }
 
-/* Extra Small Devices (max-width: 576px) */
 @media (max-width: 576px) {
   h1 {
     font-size: 2rem;

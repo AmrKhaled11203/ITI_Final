@@ -1,8 +1,7 @@
-// components/TestimonialsSection.jsx
 import React from "react";
 import TestimonialsContent from "./TestimonialsContent";
 import "./TestimonialsSection.css";
-import bg from "../../assets/images/WhatsApp Image 2025-07-12 at 17.20.43_857a17b6.jpg"; // Adjust the path as necessary
+import bg from "../../assets/images/WhatsApp Image 2025-07-12 at 17.20.43_857a17b6.jpg"; 
 
 const TestimonialsSection = () => {
   return (

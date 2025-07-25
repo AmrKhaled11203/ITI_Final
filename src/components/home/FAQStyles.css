@@ -61,7 +61,6 @@
   height: 34px;
   font-size: 15px;
 }
-/* Tablet (1024px and below) */
 @media (max-width: 1024px) {
   .FAQcards {
     flex-direction: column;
@@ -89,7 +88,6 @@
   }
 }
 
-/* Mobile (768px and below) */
 @media (max-width: 768px) {
   .FAQSection {
     height: 200px;
